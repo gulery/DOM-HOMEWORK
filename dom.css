@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ornek {
+  /* text-align: center; */
+  font-size: 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.telefon {
+  width: 40rem;
+  height: 30rem;
+}
+
+.butondiv {
+  margin: 3rem;
+}
+.btn {
+  margin: 3px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 7rem;
+  cursor: pointer;
+}
+
+#btn1 {
+  border: 2px solid rgb(187, 187, 0);
+  color: rgb(187, 187, 0);
+}
+
+#btn1:hover {
+  background-color: rgb(187, 187, 0);
+  color: black;
+}
+#btn2 {
+  border: 2px solid rgb(24, 117, 255);
+  color: rgb(24, 117, 255);
+}
+#btn2:hover {
+  background-color: rgb(24, 117, 255);
+  color: black;
+}
+#btn3 {
+  border: 2px solid rgb(243, 65, 65);
+  color: rgb(243, 65, 65);
+}
+#btn3:hover {
+  background-color: rgb(243, 65, 65);
+  color: black;
+}
